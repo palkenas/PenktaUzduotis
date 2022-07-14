@@ -1,0 +1,184 @@
+#Container {
+    width: 400px;
+    height: 600px;
+    margin-left: calc((100% - 400px)/2);
+    margin-top: 15px;
+    background-image: url(../Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+#TextContainer {
+    width: 350px;
+    height: 550px;
+    margin-left: 25px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+#DatePlace {
+    margin-top: 50px;
+}
+.ColumnIcon {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    height: 300px; 
+}
+.ColumnText {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    height: 300px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+img {
+    width: 20px;
+    height:20px;
+}
+.ThirdImage {
+    margin-top: 2px;
+}
+.NameText {
+    font-size: 15px;
+    margin-top: -2px;
+}
+.Name {
+    display: inline-block;
+}
+#SecondColumnText {
+    margin-top: 17px;
+    margin-left: 75px;
+    font-size: 10px;
+}
+#FirstName {
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+input {
+    background: transparent;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(6, 6, 13);
+}
+
+input:focus {
+    border-color: rgb(199, 202, 50)
+}
+.InputName {
+    margin-top: 5px;
+}
+.subtitle {
+    font-size: 10px;
+}
+.email {
+    margin-top: 10px;
+}
+.InputEmail {
+    width: 285px;
+    margin-top: 10px;
+}
+.tickets {
+    margin-top: 5px;
+}
+#tickets {
+    width: 200px;
+}
+.TicketTextOne {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#SingleTicket {
+    margin-left: 20px;
+}
+#RadioButtonOne {
+    margin-top: 13px;
+}
+#PriceOne {
+    margin-left: 110px;
+}
+#PriceTwo {
+    margin-left: 28px;
+}
+#PriceThree {
+    margin-left: 17px
+}
+.RadioButton {
+    margin-top: -5px
+}
+hr.line {
+    margin-top: 20px;
+    border-top: 1px solid rgb(6, 6, 13);
+}
+.total1 {
+    display: inline-block;
+}
+#total{
+    margin-left: 35px;
+    font-size: 15px;
+}
+#total2 {
+    margin-left: 155px;
+}
+.title {
+    font-size: 14px;
+}
+.Event {
+    margin-top: 5px;
+    display: inline-block;
+}
+#Optional {
+    font-size: 10px;
+    margin-top: 2px;
+}
+#Event {
+    font-size: 13px;
+}
+table,td {
+    border: 1px solid black;
+    width: 95px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.table1 {
+    margin-top: 5px;
+    display: inline-block;
+}
+.table2 {
+    margin-top: 5px;
+    display: inline-block;
+}
+.OptionalInput {
+    font-size: 7px;
+    font-weight: lighter;
+}
+textarea {
+    width: 70px;
+    height: 12px;
+    background-color: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-attachment: fixed;
+    resize: none;
+}
+#submit {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.button {
+      margin-left: 60px;
+      margin-top: 2px;
+}
+
+img.register {
+    width: 150px;
+    height: 40px;
+}
